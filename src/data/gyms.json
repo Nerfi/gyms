@@ -8,7 +8,7 @@
       "address": "Evolve Singapore, 143 Neil Road, Singapore",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.mOvhimdzCyFvTB6M3YDDgAHaEO%26pid%3DApi&f=1",
       "geometry": {
-        "coordinates": [-75.3372987731628, 45.38332153627205]
+        "coordinates": [1.290784, 103.83934]
       }
 
 
@@ -21,7 +21,7 @@
       "address": "275 Beach Road #01-01 Singapore 199549",
       "image":  "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmaorient.files.wordpress.com%2F2012%2F03%2Fjuggernaut.jpg&f=1&nofb=1",
       "geometry": {
-        "coordinates": [-75.54651808657795, 45.46713458191736]
+        "coordinates": [1.300891, 103.860341]
       }
     },
     {
@@ -32,7 +32,7 @@
       "address": "No.3 Shenton Way #03-06A Shenton House",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gVj7Xft79zB2LIRVETutLQHaHa%26pid%3DApi&f=1",
       "geometry": {
-      "coordinates": [-75.89861059953232,45.295014379864874]
+      "coordinates": [1.278886,103.848024]
      }
     },
     {
@@ -43,7 +43,7 @@
       "address": "41C North Canal Road Singapore 059297",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kSU1XXILzk3_Mfs5dY-9BgHaFS%26pid%3DApi&f=1",
       "geometry": {
-      "coordinates": [-75.46856164227076,45.23032561834377]
+      "coordinates": [1.287049,103.846899]
      }
 
     },
@@ -55,7 +55,7 @@
       "address": "118B Neil Road, Singapore 088854",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wtt980iCO2Lb7U4qE6rwNwFNC7%26pid%3DApi&f=1",
       "geometry": {
-        "coordinates": [-76.20608770813672,45.470459866077654]
+        "coordinates": [1.2780515,103.838323]
       }
 
     },
@@ -64,10 +64,10 @@
       "name": "Team Lakay",
       "description": "Hands down the most popular martial arts organization in the Philippines, the famed Team Lakay of Baguio City offers classes in grappling and wushu, and is home to the country’s biggest martial arts stars such as former ONE World Champions Eduard Landslide Folayang and Honorio The Rock Banario, and several top contenders in many weight classes. The way the gym molds these martial artists’ lives from adversity to triumph has been simply inspiring.",
       "website": "https://www.facebook.com/TeamLakay/",
-      "address": " 3rd Floor RD (Red Dragon) Square Building Balangabang, La Trinidad, Benguet ",
+      "address": " Unit 206 Pine Valley Plaza, Km.4, La Trinidad,Benguet ",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.sEAEWKrE0HSnPyjxCWMwIgHaCu%26pid%3DApi&f=1",
       "geometry": {
-      "coordinates": [-75.92665136652087,45.26065977495056]
+      "coordinates": [16.473280,120.627880]
      }
     },
     {
@@ -78,7 +78,7 @@
       "address": "Cd Quezon, Gran Manila, Filipinas",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.bleacherreport.net%2Fimg%2Fimages%2Fphotos%2F001%2F791%2F751%2Falliance_crop_exact.jpg%3Fw%3D1200%26h%3D1200%26q%3D75&f=1&nofb=1",
       "geometry": {
-      "coordinates": [-75.76093333284275,45.34556666896456]
+      "coordinates": [14.694110,121.104960]
      }
     },
     {
@@ -89,8 +89,86 @@
       "address": "Mavar Auto Shop, 1231 Batangas Street, Barangay San Isidro, Makati, 1234 Metro Manila, Filipinas",
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdojodrifter.com%2Fwp-content%2Fuploads%2F2014%2F12%2F1511172_10205045059263266_3072094730389379840_n.jpg&f=1&nofb=1",
       "geometry": {
-      "coordinates": [-75.6259961314857,45.37540158749613]
+      "coordinates": [14.554166,121.0039437]
      }
+    },
+    {
+      "country": "THE PHILIPPINES",
+      "name": " Elorde Gym",
+      "description": "Known for their world-class boxing program, Elorde Gym recently incorporated kickboxing and other martial arts into their training schedule. With countless branches and affiliates all across metro Manila, students are spoiled for choice when it comes to what they want to train in and where. Elorde is starting to produce some exciting martial arts talent, such as the promising Rome Trinidad.",
+      "website": "https://www.facebook.com/ELORDEPRIME/",
+      "address": "3rd Floor A&W Building,Juno Street cor. Makati Ave Makati, Metro Manila Philippines",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MtsJyBZWslruV4Tp5rWZAAHaDt%26pid%3DApi&f=1",
+      "geometry": {
+        "coordinates": [14.5541918,120.9973776]
+      }
+    },
+    {
+      "country": "THE PHILIPPINES",
+      "name": "Mindanao Ultimate",
+      "description": "Launched in 2012, Mindanao Ultimate is a gym in Cagayan De Oro City, Misamis Oriental, and has produced martial artists such as Rabin Catalan to compete on the global stage. Starting out primarily in Muay Thai, the gym is based on the teachings of its Founder, Kru Raul G. Sevilleno, and emphasizes traditional and hard training for self defense and discipline.",
+      "website": "https://www.facebook.com/MindanaoUltimateMMA/?ref=page_internal",
+      "address": "4th floor one montecarlo bldg, Corner corrale-hayes St. Cagayan de oro city",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipP0oHmnJczVRni9U_zOHBxlcSBIssBHoY97lqT4=w408-h306-k-no",
+      "geometry": {
+        "coordinates": [8.4755019,124.6433314]
+      }
+    },
+    {
+      "country": "Malaysia",
+      "name": " Monarchy",
+      "description": "Monarchy in Kuala Lumpur is Malaysia’s top martial arts institution, and offers extensive boxing, Muay Thai, and jiu-jitsu training programs for all levels of martial artist. Emphasis is placed on practical and effective instruction for competition, self defense, and overall fitness.Co-founded by ONE athlete Samir Mrabet and Mike Rodgers, Monarchy is where ONE Championship superstar Agilan “Alligator” Thani underwent his incredible transformation into a welterweight world title contender. In addition, the gym regularly hosts Malaysian stars the likes of Ev Ting and Gianni Subba whenever they roll into town.",
+      "website": "https://monarchymma.com/",
+      "address": "Monarchy MMA City Centre Wisma MPL, Jalan Raja Chulan 50200 Kuala Lumpur",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipPC8Lexaf0zktjQ0krwkeA4o95I96i05wC6P4ov=w426-h240-k-no",
+      "geometry": {
+        "coordinates": [3.1505254,101.7048593]
+      }
+    },
+    {
+      "country": "Malaysia",
+      "name": "MuayFit",
+      "description": "Established in 2010, MuayFit has set the standard in Malaysia for Muay Thai, Krav Maga, Brazilian jiu-jitsu, and fitness. There are four locations all throughout the country, with a main branch in Petaling Jaya. The facility hosts visitors from all over the continent, including Filipino striker Eric Kelly, Malaysian superstar Peter Davis, and current lightweight competitor Richard “Notorious” Corminal.",
+      "website": "http://muayfitpj.com/",
+      "address": "MuayFit Petaling Jaya, Jalan 19/1b, Seksyen 19, Petaling Jaya, Selangor, Malasia",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dJyHtB7JHktJQ3j0T7tomAAAAA%26pid%3DApi%26h%3D160&f=1",
+      "geometry": {
+        "coordinates": [3.1138074,101.6253013]
+      }
+    },
+    {
+      "country": "Malaysia",
+      "name": "Merican Muay Thai Gym",
+      "description": "A year after being declared one of the world’s best by the World Muay Thai Association, ONE Championship bantamweight Saiful “The Vampire” Merican realized a lifelong dream by opening Merican Muay Thai Gym in 2010. Based in Kuala Lumpur, he has been helping people achieve their weight-loss goals and realize their own martial arts dreams.",
+      "website": "http://www.mericanmuaythai.com/",
+      "address":  "3-3A Jalan Solaris Solaris Mont Kiara 50480 Kuala Lumpur.",
+      "image": "https://geo1.ggpht.com/cbk?panoid=C7pMJrx0Dcvlph8jxJ8OsA&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=255.5821&pitch=0&thumbfov=100",
+      "geometry": {
+        "coordinates": [3.175040000,101.659780000]
+      }
+    },
+    {
+      "country": "Malaysia",
+      "name": "Borneo Tribal Squad",
+      "description": "Malaysian martial arts pioneer and 2013 ONE Featherweight Tournament Champion AJ “Pyro” Lias Mansor has breathed new life into Sabah. Though he worked with aspiring talents for years, he took it to a new level in 2013 when he opened Borneo Tribal Squad. Since that time, he produced a slew of dynamic athletes including ONE Championship’s Hisyam Samsudin, Ann Osman, Kelvin Ong, and Audreylaura Boniface.",
+      "website": "http://www.borneotribalmma.weebly.com/",
+      "address": "lot 2-8 top floor, block E , metrotown, kota kinablau, sabah, Malaysia",
+      "image": "https://geo3.ggpht.com/cbk?panoid=Fqfe-KgtQsjoWp8Ipgbw2g&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=235.17247&pitch=0&thumbfov=100",
+      "geometry": {
+        "coordinates": [5.9616824,116.0831147]
+      }
+    },
+    {
+      "country": "Malaysia",
+      "name": "Ultimate Academy",
+      "description": "Away from the urban glitz of Kuala Lumpur and the beautiful outdoors of Sabah lies Ultimate Academy. Based in Johor Bahru, right on the border of neighboring Singapore, this particular venue was founded by pioneering ONE featherweight competitor Melvin “Overkill” Yeoh in 2006. It quickly became a popular training destination as a one-stop shop for all your martial arts needs, and is considered the sport’s oldest running gym in all of Malaysia",
+      "website": "https://www.facebook.com/UltimateMMAJB/",
+      "address": "39-02, Jalan Mutiara Emas 10/19, Taman Mount Austin 81100 Johor Bahru, Johor, Malaysia",
+      "image": "https://geo0.ggpht.com/cbk?panoid=J_Bg6EsZ5PrHsMcf8ufM3w&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=227.73148&pitch=0&thumbfov=100",
+      "geometry": {
+        "coordinates": [1.5524144,103.7824633]
+
+      }
     }
   ]
 }
