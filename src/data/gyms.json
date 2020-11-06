@@ -1,12 +1,16 @@
-{
+ {
   "gyms": [
     {
       "country": "Singapore",
       "name": "Evolve",
-      "description": "The premier martial arts gym in Asia, Evolve is headquartered in Singapore with four convenient locations in the country. Everything the gym does is centered around its motto of “Unleash Your Greatness,” with training programs tailored for everyone from complete beginners to experienced professionals.",
+      "description": "The premier martial arts gym in Asia, Evolve is headquartered in Singapore with four convenient locations in the country. Everything the gym does is centered around its motto of Unleash Your Greatness, with training programs tailored for everyone from complete beginners to experienced professionals.",
       "website": "https://evolve-mma.com/",
       "address": "Evolve Singapore, 143 Neil Road, Singapore",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.mOvhimdzCyFvTB6M3YDDgAHaEO%26pid%3DApi&f=1"
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.mOvhimdzCyFvTB6M3YDDgAHaEO%26pid%3DApi&f=1",
+      "geometry": {
+        "coordinates": [-75.3372987731628, 45.38332153627205]
+      }
+
 
     },
     {
@@ -15,7 +19,10 @@
       "description": "The brainchild of Singapore martial arts pioneer, national boxing coach, and highly-decorated champion Arvind Lalwani, Juggernaut Fight Club is a popular training location for budding martial artists in Singapore. With so much talent under one roof dedicated to top-notch training, it’s no wonder that it has produced so many homegrown champions in multiple disciplines across the region.",
       "website": "http://juggernautfightclub.com/",
       "address": "275 Beach Road #01-01 Singapore 199549",
-      "image":  "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmaorient.files.wordpress.com%2F2012%2F03%2Fjuggernaut.jpg&f=1&nofb=1"
+      "image":  "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmaorient.files.wordpress.com%2F2012%2F03%2Fjuggernaut.jpg&f=1&nofb=1",
+      "geometry": {
+        "coordinates": [-75.54651808657795, 45.46713458191736]
+      }
     },
     {
       "country": "Singapore",
@@ -23,32 +30,45 @@
       "description": "Led by Singapore pioneers Bruce Loh and Royston Wee, Impact was founded in 2010 to provide affordable training without compromising quality, and has produced several successful local Singaporean talents, such as ONE Championship athlete Niko Soe. Impact’s students also feature regularly on the podium for martial arts tournaments throughout the region, continuing a tradition of success in BJJ, Muay Thai, sanshou, boxing, and wrestling",
       "website": "http://impactmma.com.sg/",
       "address": "No.3 Shenton Way #03-06A Shenton House",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gVj7Xft79zB2LIRVETutLQHaHa%26pid%3DApi&f=1"
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gVj7Xft79zB2LIRVETutLQHaHa%26pid%3DApi&f=1",
+      "geometry": {
+      "coordinates": [-75.89861059953232,45.295014379864874]
+     }
     },
     {
       "country": "Singapore",
       "name": "Fight G Academy",
-      "description": "The first martial arts gym established in Singapore, Fight G Academy was built by Darren “Senz” de Silva, who holds over 30 years of experience in martial arts and 20 years in coaching. With an emphasis on hard-style competitive training, several of the gyms products have unsurprisingly made a name for themselves on the regional scene, as well as on the global stage of ONE Championship.",
+      "description": "The first martial arts gym established in Singapore, Fight G Academy was built by Darren Senz de Silva, who holds over 30 years of experience in martial arts and 20 years in coaching. With an emphasis on hard-style competitive training, several of the gyms products have unsurprisingly made a name for themselves on the regional scene, as well as on the global stage of ONE Championship.",
       "website": "http://fightg.com/",
       "address": "41C North Canal Road Singapore 059297",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kSU1XXILzk3_Mfs5dY-9BgHaFS%26pid%3DApi&f=1"
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kSU1XXILzk3_Mfs5dY-9BgHaFS%26pid%3DApi&f=1",
+      "geometry": {
+      "coordinates": [-75.46856164227076,45.23032561834377]
+     }
+
     },
     {
       "country": "Singapore",
       "name": " Team Highlight Reel",
-      "description": "Team Highlight Reel describes itself as a team of highly skilled, passionate, and dedicated coaches and students, with the drive to improve themselves through martial arts being at the gym’s core. Though a new player, Team Highlight Reel is led by former ONE contender and BJJ black belt Major Overall, and holds lots of promise. In fact, it already counts women’s strawweight world title challenger Tiffany “No Chill” Teo among its ranks.",
+      "description": "Team Highlight Reel describes itself as a team of highly skilled, passionate, and dedicated coaches and students, with the drive to improve themselves through martial arts being at the gym’s core. Though a new player, Team Highlight Reel is led by former ONE contender and BJJ black belt Major Overall, and holds lots of promise. In fact, it already counts women’s strawweight world title challenger Tiffany No Chill Teo among its ranks.",
       "website": "https://www.teamhighlightreel.com/",
       "address": "118B Neil Road, Singapore 088854",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wtt980iCO2Lb7U4qE6rwNwFNC7%26pid%3DApi&f=1"
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wtt980iCO2Lb7U4qE6rwNwFNC7%26pid%3DApi&f=1",
+      "geometry": {
+        "coordinates": [-76.20608770813672,45.470459866077654]
+      }
+
     },
     {
       "country": "THE PHILIPPINES",
       "name": "Team Lakay",
-      "description": "Hands down the most popular martial arts organization in the Philippines, the famed Team Lakay of Baguio City offers classes in grappling and wushu, and is home to the country’s biggest martial arts stars such as former ONE World Champions Eduard “Landslide” Folayang and Honorio “The Rock” Banario, and several top contenders in many weight classes. The way the gym molds these martial artists’ lives from adversity to triumph has been simply inspiring.\n"
-      "Headed by legendary Filipino martial artist Mark Sangiao, Team Lakay has dominated the Philippine martial arts scene for years with their high-level of skill and admirable humility. What’s more, the high altitudes of Baguio City are perfect for building stamina and endurance, ensuring Lakay warriors never run out of gas while throwing their signature wushu strikes.",
+      "description": "Hands down the most popular martial arts organization in the Philippines, the famed Team Lakay of Baguio City offers classes in grappling and wushu, and is home to the country’s biggest martial arts stars such as former ONE World Champions Eduard Landslide Folayang and Honorio The Rock Banario, and several top contenders in many weight classes. The way the gym molds these martial artists’ lives from adversity to triumph has been simply inspiring.",
       "website": "https://www.facebook.com/TeamLakay/",
       "address": " 3rd Floor RD (Red Dragon) Square Building Balangabang, La Trinidad, Benguet ",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.sEAEWKrE0HSnPyjxCWMwIgHaCu%26pid%3DApi&f=1"
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.sEAEWKrE0HSnPyjxCWMwIgHaCu%26pid%3DApi&f=1",
+      "geometry": {
+      "coordinates": [-75.92665136652087,45.26065977495056]
+     }
     },
     {
       "country": "THE  PHILIPPINES",
@@ -56,7 +76,21 @@
       "description": "The newest martial arts and fitness gym in Manila, Alliance Training Centre is the first Filipino branch of ONE Heavyweight World Champion Brandon “The Truth” Vera’s Alliance. The gym is helmed by Vera’s coach himself, George Castro, and looks to raise the profile of Filipino martial arts to new heights. The transformation has already started, with stars such as Ramon Gonzales and Burn Soriano already embarking on training programs there.",
       "website": "http://www.alliancegym.ph/",
       "address": "Cd Quezon, Gran Manila, Filipinas",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.bleacherreport.net%2Fimg%2Fimages%2Fphotos%2F001%2F791%2F751%2Falliance_crop_exact.jpg%3Fw%3D1200%26h%3D1200%26q%3D75&f=1&nofb=1"
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.bleacherreport.net%2Fimg%2Fimages%2Fphotos%2F001%2F791%2F751%2Falliance_crop_exact.jpg%3Fw%3D1200%26h%3D1200%26q%3D75&f=1&nofb=1",
+      "geometry": {
+      "coordinates": [-75.76093333284275,45.34556666896456]
+     }
+    },
+    {
+      "country": "THE  PHILIPPINES",
+      "name": "Catalan Fighting System",
+      "description": "Headed by ONE Championship athlete and acclaimed wushu world champion Rene Catalan, Catalan Fighting Systems is home to several Filipino homegrown martial artists plying their trade in ONE Championship. This includes Rene’s brothers Ruel and Robin Catalan, as well as breakout star Jomary Torres. By promoting martial arts, the gym aims to turn Filipinos away from vice, and lead through their athletes’ examples.",
+      "website": "https://www.facebook.com/Catalan-Fighting-System-Philippines-666275413421226/?ref=page_internal",
+      "address": "Mavar Auto Shop, 1231 Batangas Street, Barangay San Isidro, Makati, 1234 Metro Manila, Filipinas",
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdojodrifter.com%2Fwp-content%2Fuploads%2F2014%2F12%2F1511172_10205045059263266_3072094730389379840_n.jpg&f=1&nofb=1",
+      "geometry": {
+      "coordinates": [-75.6259961314857,45.37540158749613]
+     }
     }
   ]
 }
