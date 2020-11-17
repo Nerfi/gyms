@@ -1,18 +1,20 @@
 import React from 'react';
 import {gyms} from '../../data/gyms.json';
 import {Card,Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
+import './ShowGyms.css';
 
 
 function ShowGyms () {
 
-  const test = (e) =>  console.log(e.target)
+
 
  return(
 <div className="showgyms__container" >
   {gyms.map(gym => (
     <div key={gym.name} className="render__gym" >
      <Card
-     style={{ width: '18%'}}>
+      >
      <Card.Img variant="top" src={gym.image} />
       <Card.Body>
         <Card.Title> <strong>{gym.name}</strong></Card.Title>
@@ -20,7 +22,12 @@ function ShowGyms () {
           {gym.description.slice(0, 80)}...
         </Card.Text>
 
-        <Button  onClick={test} variant="primary">Read More</Button>
+        <Button variant="primary">
+        <Link to={gym.id}>
+
+          Read More
+        </Link>
+        </Button>
 
       </Card.Body>
     </Card>

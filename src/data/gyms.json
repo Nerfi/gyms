@@ -2,6 +2,7 @@
   "gyms": [
     {
       "country": "Singapore",
+      "id": 1,
       "name": "Evolve",
       "description": "The premier martial arts gym in Asia, Evolve is headquartered in Singapore with four convenient locations in the country. Everything the gym does is centered around its motto of Unleash Your Greatness, with training programs tailored for everyone from complete beginners to experienced professionals.",
       "website": "https://evolve-mma.com/",
@@ -15,6 +16,7 @@
     },
     {
       "country": "Singapore",
+      "id": 2,
       "name": "Juggernaut Fight Club",
       "description": "The brainchild of Singapore martial arts pioneer, national boxing coach, and highly-decorated champion Arvind Lalwani, Juggernaut Fight Club is a popular training location for budding martial artists in Singapore. With so much talent under one roof dedicated to top-notch training, it’s no wonder that it has produced so many homegrown champions in multiple disciplines across the region.",
       "website": "http://juggernautfightclub.com/",
@@ -26,6 +28,7 @@
     },
     {
       "country": "Singapore",
+      "id": 3,
       "name": "Impact",
       "description": "Led by Singapore pioneers Bruce Loh and Royston Wee, Impact was founded in 2010 to provide affordable training without compromising quality, and has produced several successful local Singaporean talents, such as ONE Championship athlete Niko Soe. Impact’s students also feature regularly on the podium for martial arts tournaments throughout the region, continuing a tradition of success in BJJ, Muay Thai, sanshou, boxing, and wrestling",
       "website": "http://impactmma.com.sg/",
@@ -37,6 +40,7 @@
     },
     {
       "country": "Singapore",
+       "id": 4,
       "name": "Fight G Academy",
       "description": "The first martial arts gym established in Singapore, Fight G Academy was built by Darren Senz de Silva, who holds over 30 years of experience in martial arts and 20 years in coaching. With an emphasis on hard-style competitive training, several of the gyms products have unsurprisingly made a name for themselves on the regional scene, as well as on the global stage of ONE Championship.",
       "website": "http://fightg.com/",
@@ -49,6 +53,7 @@
     },
     {
       "country": "Singapore",
+      "id": 5,
       "name": " Team Highlight Reel",
       "description": "Team Highlight Reel describes itself as a team of highly skilled, passionate, and dedicated coaches and students, with the drive to improve themselves through martial arts being at the gym’s core. Though a new player, Team Highlight Reel is led by former ONE contender and BJJ black belt Major Overall, and holds lots of promise. In fact, it already counts women’s strawweight world title challenger Tiffany No Chill Teo among its ranks.",
       "website": "https://www.teamhighlightreel.com/",
@@ -61,6 +66,7 @@
     },
     {
       "country": "THE PHILIPPINES",
+      "id": 6,
       "name": "Team Lakay",
       "description": "Hands down the most popular martial arts organization in the Philippines, the famed Team Lakay of Baguio City offers classes in grappling and wushu, and is home to the country’s biggest martial arts stars such as former ONE World Champions Eduard Landslide Folayang and Honorio The Rock Banario, and several top contenders in many weight classes. The way the gym molds these martial artists’ lives from adversity to triumph has been simply inspiring.",
       "website": "https://www.facebook.com/TeamLakay/",
@@ -72,6 +78,7 @@
     },
     {
       "country": "THE  PHILIPPINES",
+      "id": 7,
       "name": "Alliance Training Center",
       "description": "The newest martial arts and fitness gym in Manila, Alliance Training Centre is the first Filipino branch of ONE Heavyweight World Champion Brandon “The Truth” Vera’s Alliance. The gym is helmed by Vera’s coach himself, George Castro, and looks to raise the profile of Filipino martial arts to new heights. The transformation has already started, with stars such as Ramon Gonzales and Burn Soriano already embarking on training programs there.",
       "website": "http://www.alliancegym.ph/",
@@ -83,6 +90,7 @@
     },
     {
       "country": "THE  PHILIPPINES",
+      "id": 8,
       "name": "Catalan Fighting System",
       "description": "Headed by ONE Championship athlete and acclaimed wushu world champion Rene Catalan, Catalan Fighting Systems is home to several Filipino homegrown martial artists plying their trade in ONE Championship. This includes Rene’s brothers Ruel and Robin Catalan, as well as breakout star Jomary Torres. By promoting martial arts, the gym aims to turn Filipinos away from vice, and lead through their athletes’ examples.",
       "website": "https://www.facebook.com/Catalan-Fighting-System-Philippines-666275413421226/?ref=page_internal",
@@ -94,6 +102,7 @@
     },
     {
       "country": "THE PHILIPPINES",
+      "id": 9,
       "name": " Elorde Gym",
       "description": "Known for their world-class boxing program, Elorde Gym recently incorporated kickboxing and other martial arts into their training schedule. With countless branches and affiliates all across metro Manila, students are spoiled for choice when it comes to what they want to train in and where. Elorde is starting to produce some exciting martial arts talent, such as the promising Rome Trinidad.",
       "website": "https://www.facebook.com/ELORDEPRIME/",
@@ -105,6 +114,7 @@
     },
     {
       "country": "THE PHILIPPINES",
+      "id": 10,
       "name": "Mindanao Ultimate",
       "description": "Launched in 2012, Mindanao Ultimate is a gym in Cagayan De Oro City, Misamis Oriental, and has produced martial artists such as Rabin Catalan to compete on the global stage. Starting out primarily in Muay Thai, the gym is based on the teachings of its Founder, Kru Raul G. Sevilleno, and emphasizes traditional and hard training for self defense and discipline.",
       "website": "https://www.facebook.com/MindanaoUltimateMMA/?ref=page_internal",
@@ -116,6 +126,7 @@
     },
     {
       "country": "Malaysia",
+      "id": 11,
       "name": " Monarchy",
       "description": "Monarchy in Kuala Lumpur is Malaysia’s top martial arts institution, and offers extensive boxing, Muay Thai, and jiu-jitsu training programs for all levels of martial artist. Emphasis is placed on practical and effective instruction for competition, self defense, and overall fitness.Co-founded by ONE athlete Samir Mrabet and Mike Rodgers, Monarchy is where ONE Championship superstar Agilan “Alligator” Thani underwent his incredible transformation into a welterweight world title contender. In addition, the gym regularly hosts Malaysian stars the likes of Ev Ting and Gianni Subba whenever they roll into town.",
       "website": "https://monarchymma.com/",
@@ -127,6 +138,7 @@
     },
     {
       "country": "Malaysia",
+      "id": 12,
       "name": "MuayFit",
       "description": "Established in 2010, MuayFit has set the standard in Malaysia for Muay Thai, Krav Maga, Brazilian jiu-jitsu, and fitness. There are four locations all throughout the country, with a main branch in Petaling Jaya. The facility hosts visitors from all over the continent, including Filipino striker Eric Kelly, Malaysian superstar Peter Davis, and current lightweight competitor Richard “Notorious” Corminal.",
       "website": "http://muayfitpj.com/",
@@ -138,6 +150,7 @@
     },
     {
       "country": "Malaysia",
+      "id": 13,
       "name": "Merican Muay Thai Gym",
       "description": "A year after being declared one of the world’s best by the World Muay Thai Association, ONE Championship bantamweight Saiful “The Vampire” Merican realized a lifelong dream by opening Merican Muay Thai Gym in 2010. Based in Kuala Lumpur, he has been helping people achieve their weight-loss goals and realize their own martial arts dreams.",
       "website": "http://www.mericanmuaythai.com/",
@@ -149,6 +162,7 @@
     },
     {
       "country": "Malaysia",
+      "id": 14,
       "name": "Borneo Tribal Squad",
       "description": "Malaysian martial arts pioneer and 2013 ONE Featherweight Tournament Champion AJ “Pyro” Lias Mansor has breathed new life into Sabah. Though he worked with aspiring talents for years, he took it to a new level in 2013 when he opened Borneo Tribal Squad. Since that time, he produced a slew of dynamic athletes including ONE Championship’s Hisyam Samsudin, Ann Osman, Kelvin Ong, and Audreylaura Boniface.",
       "website": "http://www.borneotribalmma.weebly.com/",
@@ -160,6 +174,7 @@
     },
     {
       "country": "Malaysia",
+      "id": 15,
       "name": "Ultimate Academy",
       "description": "Away from the urban glitz of Kuala Lumpur and the beautiful outdoors of Sabah lies Ultimate Academy. Based in Johor Bahru, right on the border of neighboring Singapore, this particular venue was founded by pioneering ONE featherweight competitor Melvin “Overkill” Yeoh in 2006. It quickly became a popular training destination as a one-stop shop for all your martial arts needs, and is considered the sport’s oldest running gym in all of Malaysia",
       "website": "https://www.facebook.com/UltimateMMAJB/",

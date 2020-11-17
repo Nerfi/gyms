@@ -1,4 +1,22 @@
-.render__gym {
-  display: flex;
+.showgyms__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  margin: 10px;
+  margin-left: 25px;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+
+/* NO OLVIDAR MEDIA QUERYS QUE AQUI SI QUE VAN A HACER FALTA */
+/* not working */
+@media screen (min-width: 600px) {
+  .showgyms__container {
+    display:  grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    background-color: red;
+  }
 
 }
