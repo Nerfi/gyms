@@ -1,12 +1,1 @@
-.splitScreen {
- display: flex;
- flex-direction: column;
 
-}
-  .topPane {
-    width: 50%;
-  }
-
-.bottomPane {
-  width: 50%;
-}

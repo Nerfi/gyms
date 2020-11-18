@@ -7,33 +7,32 @@ import './ShowGyms.css';
 
 function ShowGyms () {
 
+return(
+  <div className="showgyms__container" >
+    {gyms.map(gym => (
 
+      <div key={gym.name} className="render__gym" >
+       <Card
+        >
 
- return(
-<div className="showgyms__container" >
-  {gyms.map(gym => (
-    <div key={gym.name} className="render__gym" >
-     <Card
-      >
-     <Card.Img variant="top" src={gym.image} />
-      <Card.Body>
-        <Card.Title> <strong>{gym.name}</strong></Card.Title>
-        <Card.Text>
-          {gym.description.slice(0, 80)}...
-        </Card.Text>
+       <Card.Img variant="top" src={gym.image} />
+        <Card.Body>
+          <Card.Title> <strong>{gym.name}</strong></Card.Title>
+          <Card.Text>
+            {gym.description.slice(0, 80)}...
+          </Card.Text>
+             <Button variant="primary">
 
-        <Button variant="primary">
-        <Link to={gym.id}>
+            <Link style={{color: 'black'}} to={`/gym/${gym.id}`} >
+              See Gym
+            </Link>
+            </Button>
 
-          Read More
-        </Link>
-        </Button>
-
-      </Card.Body>
-    </Card>
+        </Card.Body>
+      </Card>
+        </div>
+      ))}
       </div>
-    ))}
-    </div>
   )
 };
 

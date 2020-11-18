@@ -1,34 +1,34 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import './App.css';
-import Gym from '../src/Components/Gym/Gym';
-import ShowGyms from '../src/Components/ShowGyms/ShowGyms';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarMaps from '../src/Components/Navbar/Navbar';
-
-
-
+import Home from '../src/Components/Home/Home';
 
 function App() {
 
+
   return (
-    <>
+    <div className="App">
     <Router>
       <NavbarMaps/>
 
-    <div className="splitScreen ">
-      <div className="topPane ">
-        <ShowGyms/>
-      </div>
+      <Switch>
 
-    <div className="bottomPane">
-       <Gym/>
-    </div>
+      <Route  path="/gym/:id">
+       <h1>workign</h1>
+      </Route>
 
-    </div>
+      <Route exact path="/">
+       <Home />
+      </Route>
+
+
+      </Switch>
 
     </Router>
-    </>
+
+
+    </div>
   );
 }
 
