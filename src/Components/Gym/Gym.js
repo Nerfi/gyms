@@ -10,7 +10,7 @@ function Gym() {
   const [viewport, setViewport] = useState({
     latitude: 13.75398,
     longitude: 100.50144,
-    width: '65vw',
+    width: '35vw',
     height: '100vh',
     zoom: 3
   });

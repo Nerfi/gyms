@@ -9,6 +9,7 @@ function ShowGyms () {
 
 return(
   <div className="showgyms__container" >
+
     {gyms.map(gym => (
 
       <div key={gym.name} className="render__gym" >
@@ -21,13 +22,11 @@ return(
           <Card.Text>
             {gym.description.slice(0, 80)}...
           </Card.Text>
-             <Button variant="primary">
-
-            <Link style={{color: 'black'}} to={`/gym/${gym.id}`} >
-              See Gym
+         <Button variant="primary">
+            <Link style={{color: 'white'}} to={`/gym/${gym.id}`} >
+            See Gym
             </Link>
-            </Button>
-
+          </Button>
         </Card.Body>
       </Card>
         </div>
