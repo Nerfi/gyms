@@ -1,11 +1,11 @@
 .showgyms__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 50%;
+  width: 40%;
   margin: 10px;
   margin-left: 25px;
   grid-gap: 20px;
-  align-items: center;
+  align-content:  center;
 }
 
 

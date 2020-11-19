@@ -1,12 +1,16 @@
 .splitScreen {
  display: flex;
- flex-direction: column;
+ flex-direction: row;
+ width: 100%;
 
 }
   .topPane {
-    width: 50%;
-  }
+    width: 40%;
+    border-style: dashed;
+}
+
 
 .bottomPane {
-  width: 50%;
+  width: 60%;
+
 }

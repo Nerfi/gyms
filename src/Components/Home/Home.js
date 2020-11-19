@@ -7,7 +7,8 @@ function Home() {
   return(
     <>
       <div className="splitScreen ">
-        <div className="topPane ">
+
+        <div className="topPane">
           <ShowGyms/>
         </div>
 

@@ -8,11 +8,11 @@ import './Gym.css';
 function Gym() {
   //setting the viewpots state, the default
   const [viewport, setViewport] = useState({
-    latitude: 13.75398,
+    latitude: 12.55398,
     longitude: 100.50144,
-    width: '35vw',
+    width: '55vw',
     height: '100vh',
-    zoom: 3
+    zoom: 3.5
   });
 
   //taking the selected gym from the user

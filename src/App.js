@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarMaps from '../src/Components/Navbar/Navbar';
 import Home from '../src/Components/Home/Home';
+import SingleGym from '../src/Components/SingleGym/SingleGym';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
       <Switch>
 
       <Route  path="/gym/:id">
-       <h1>workign</h1>
+       <SingleGym/>
       </Route>
 
       <Route exact path="/">
