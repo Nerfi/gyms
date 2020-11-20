@@ -1,0 +1,17 @@
+.singleGym__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.singleGym__title {
+  text-align: center;
+}
+
+.description {
+  margin: 20px;
+}
+
+
