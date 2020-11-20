@@ -22,7 +22,6 @@ function Gym() {
     <div className="gym__container">
       <MapboxComponent
       viewport={viewport}
-      setter={setViewport}
       gyms={gymsIteration}
     />
     </div>

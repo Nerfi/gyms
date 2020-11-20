@@ -5,14 +5,26 @@ function MapboxComponent({viewport, setter, gyms, latitude, longitude}) {
 
    const [selectedGym, setSelected] = useState(null);
 
+   const [mapbox, setMapbox] = useState({
+      latitude: latitude,
+      longitude: longitude,
+      width: '55vh',
+      height: '100vh',
+      zoom: 3.5
+   });
+
+   console.log(viewport)
+
+
   return(
        <ReactMapGL
 
-      {...viewport}
+      {...viewport }
       mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_API_TOKEN}
       onViewportChange={viewport => {
           //setter(viewport)
-          setter(viewport)
+          setMapbox(viewport)
+          //setter(viewport)
       }}
       mapStyle="mapbox://styles/nerfi/ckh52m6tn02fe1an3lv1yruqh"
       >
@@ -21,7 +33,7 @@ function MapboxComponent({viewport, setter, gyms, latitude, longitude}) {
       {gyms ?  gyms.map(gym => (
 
         <Marker key={gym.name}
-         latitude={gym.geometry.coordinates[0] || latitude}
+        latitude={gym.geometry.coordinates[0] || latitude}
         longitude={gym.geometry.coordinates[1] || longitude}
         >
         <button onClick={e => {
@@ -33,7 +45,22 @@ function MapboxComponent({viewport, setter, gyms, latitude, longitude}) {
 
 
         </Marker>
-        )) : null }
+        )) :
+
+        <Marker
+        latitude={latitude}
+        longitude={longitude}
+
+        >
+        <button onClick={e => {
+          e.preventDefault();
+          setSelected(mapbox);
+        }}>
+          <img src={viewport.image} alt="unsplash" style={{width: '40px'}}/>
+        </button>
+
+
+        </Marker> }
 
       {selectedGym ? (
 

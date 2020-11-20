@@ -14,26 +14,21 @@ function SingleGym() {
     name,
     description,
     address,
-    image
+    image,
+    geometry
    } = gyms.find(gym => gym.id == id)
 
-   //pulling the latitude and longitude
-   const latitude2 = gyms.map(gym => gym.geometry.coordinates.[0]);
-   const longitude = gyms.map(gym => gym.geometry.coordinates[1]);
+  const {coordinates} = geometry;
+  const latitude = coordinates[0];
+  const longitude = coordinates[1];
 
-   console.log(typeof(latitude2))
-   const parse = parseInt(latitude2);
-   console.log(parse);
-
-   console.log(latitude2.length)
-   //el error esta en que esto loggeadn todos y cada una de las latitudes de cada object,
-   //lo cual no es lo que quiero, tengo que probar renderizando solo una, la que coincida con el id de cada gym in this case
-
-   const [newSetter, setSetter ] = useState({
-    latitude: parseInt(latitude2),
-    longitude: parseInt(longitude)
-
-   });
+  const chanchanc = {
+    width: '55vw',
+    height: '100vh',
+    zoom: 3.5,
+    latitude: latitude,
+    longitude: longitude
+  }
 
 
   return (
@@ -53,7 +48,12 @@ function SingleGym() {
     </div>
 
       <div className="mapbox__container">
-   {newSetter.latitude && newSetter.longitude ?  <MapboxComponent latitude={latitude2} longitude={longitude}   setter={setSetter}/>: <p>not working </p>}
+     <MapboxComponent
+     latitude={latitude}
+     longitude={longitude}
+
+      viewport={chanchanc}
+      />
 
 
       </div>
