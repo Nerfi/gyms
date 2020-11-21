@@ -15,14 +15,13 @@ function Gym() {
     zoom: 3.5
   });
 
-  const gymsIteration = gyms;
-
 
   return (
     <div className="gym__container">
       <MapboxComponent
       viewport={viewport}
-      gyms={gymsIteration}
+      gyms={gyms}
+      setter={setViewport}
     />
     </div>
   );

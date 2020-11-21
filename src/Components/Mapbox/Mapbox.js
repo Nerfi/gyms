@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import ReactMapGL, {Marker,Popup} from 'react-map-gl';
 
-function MapboxComponent({viewport, setter, gyms, latitude, longitude}) {
+function MapboxComponent({viewport, setter, gyms, latitude, longitude, data}) {
 
    const [selectedGym, setSelected] = useState(null);
 
@@ -13,18 +13,17 @@ function MapboxComponent({viewport, setter, gyms, latitude, longitude}) {
       zoom: 3.5
    });
 
-   console.log(viewport)
-
 
   return(
        <ReactMapGL
 
-      {...viewport }
+      {...viewport}
       mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_API_TOKEN}
       onViewportChange={viewport => {
-          //setter(viewport)
-          setMapbox(viewport)
-          //setter(viewport)
+         //setMapbox(viewport);
+         //setter(viewport)
+         return setter ? setter(viewport) : null
+
       }}
       mapStyle="mapbox://styles/nerfi/ckh52m6tn02fe1an3lv1yruqh"
       >
@@ -50,19 +49,13 @@ function MapboxComponent({viewport, setter, gyms, latitude, longitude}) {
         <Marker
         latitude={latitude}
         longitude={longitude}
-
         >
-        <button onClick={e => {
-          e.preventDefault();
-          setSelected(mapbox);
-        }}>
-          <img src={viewport.image} alt="unsplash" style={{width: '40px'}}/>
-        </button>
+        <img src={data.image} alt="unsplashj" style={{width: '40px'}}/>
+        </Marker>
+      }
 
-
-        </Marker> }
-
-      {selectedGym ? (
+      {
+        selectedGym ?
 
           <Popup latitude={selectedGym.geometry.coordinates[0]} longitude={selectedGym.geometry.coordinates[1]} onClose={() =>  {
             setSelected(null);
@@ -73,9 +66,24 @@ function MapboxComponent({viewport, setter, gyms, latitude, longitude}) {
         <p>{selectedGym.country}</p>
 
         </div>
-          </Popup>
-        ) : null}
-    </ReactMapGL>
+    </Popup>
+
+     : null
+   }
+
+   {
+     viewport ? (
+      <Popup latitude={viewport.latitude} longitude={viewport.longitude}>
+        <div>
+          <h2>{data && data.name}</h2>
+          <p>{ data && data.country}</p>
+          </div>
+        </Popup>
+
+    ): null
+
+   }
+  </ReactMapGL>
   );
 };
 
