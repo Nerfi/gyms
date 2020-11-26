@@ -12,7 +12,7 @@ return(
 
     {gyms.map(gym => (
 
-      <div key={gym.name} className="render__gym" >
+      <div key={gym.name} className="render__gym" onClick={() => alert('helllo' + gym.id)} >
        <Card
         >
 
